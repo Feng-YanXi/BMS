@@ -9,8 +9,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>主页面</title>
+<base target="basePath">
 </head>
 <body>
 	欢迎来到主页名
+	<a href="testjsp">测试</a>
 </body>
 </html>
